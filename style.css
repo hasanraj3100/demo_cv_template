@@ -1,0 +1,121 @@
+@import url('https://f...content-available-to-author-only...s.com/css2?family=Poppins:wght@300;700&display=swap');
+@import url('https://f...content-available-to-author-only...s.com/css2?family=Lora&family=Poppins:wght@300;700&display=swap');
+ 
+ 
+body {
+    margin : 0;
+    padding : 0;
+    font-family: 'Poppins';
+}
+ 
+ 
+.container {
+    display: flex;
+    margin: 0 auto;
+    width: 950px;
+    background-color: antiquewhite;
+}
+ 
+.header {
+    padding-top: 50px;
+}
+ 
+.left-section {
+    width: 300px;
+    background-color: rgb(200, 180, 180);
+    height: 1200px;
+    padding: 0px 20px;
+}
+ 
+.circle {
+    width:180px; height:180px;
+    border-radius:90px; /* Makes it round, yay! */
+    /* background:#fff; The color of the circle */
+    margin: auto;
+    padding-top: 5px;
+}
+ 
+.circle img {
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    border: 10px solid white;
+}
+ 
+.main-section {
+    padding: 0px 30px;
+    width: 600px;
+}
+ 
+.first-name {
+    font-size: 60px;
+    font-weight: bold;
+ 
+}
+ 
+.last-name {
+    font-size: 50px;
+    line-height: 35px;
+}
+ 
+.job-title {
+    display: block;
+    font-size: 25px;
+    line-height: 60px;
+}
+ 
+ 
+.contents {
+    padding-top: 75px;
+}
+ 
+.title {
+    background: rgb(70,70,70);
+    padding: 5px;
+    color: white;
+    text-align: center;
+}
+ 
+.info {
+    padding: 20px 20px;
+}
+ 
+.contacts svg {
+    height: 20px;
+}
+ 
+.row {
+    display: block;
+    padding: 5px;
+}
+ 
+ 
+.icon {
+    float:left;
+    padding-right: 10px;
+}
+ 
+ 
+.course-name, .school-name, .year {
+    display: block;
+}
+ 
+.course-name, .award-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.work-row, .certificate-row {
+    padding: 20px 10px;
+}
+
+
+.work-title, .certificate-name {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.certificate-desc {
+    padding: 5px;
+}
